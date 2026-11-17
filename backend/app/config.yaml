@@ -1,0 +1,25 @@
+# All business thresholds live here (Section 2.6 / 5.3 of the spec). Editable from the Settings page.
+price_tolerance_auto_pct: 2.0
+price_tolerance_review_pct: 10.0
+duplicate_window_days: 90
+min_confidence_critical: 0.80
+critical_fields: [invoice_number, invoice_date, vendor_name, po_reference, total_amount]
+gst_tolerance_inr: 1.00
+auto_approve_max_amount_inr: 500000
+min_text_density: 80
+max_pages: 10
+max_file_mb: 10
+vendor_name_match: 92
+vendor_name_possible: 80
+po_infer_min: 0.75
+po_infer_margin: 0.15
+po_weight_amount: 0.35
+po_weight_description: 0.35
+po_weight_lines: 0.20
+po_weight_timing: 0.10
+stale_days: 180
+ui_pacing_ms: 600
+buyer_name: Helix Retail Pvt Ltd
+buyer_gstin: 27AAACH1111A1Z7
+buyer_state: "27"
+reference_date: ""

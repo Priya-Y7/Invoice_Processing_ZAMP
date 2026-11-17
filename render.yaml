@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: invoiceiq
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: UI_PACING_MS
+        value: "600"
+      - key: WORKSPACES        # every visitor gets a private, fresh workspace
+        value: per_visitor

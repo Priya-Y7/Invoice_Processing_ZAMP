@@ -1,0 +1,10 @@
+po_number,vendor_id,issue_date,status,currency,net_amount,gst_rate_pct,description
+PO-2026-0950,V001,2026-06-05,Closed,INR,40000,18,Printer consumables
+PO-2026-1001,V001,2026-09-02,Open,INR,100000,18,Office stationery supplies
+PO-2026-1002,V002,2026-09-10,Open,INR,300000,18,Freight services Q4 2026
+PO-2026-1003,V003,2026-09-15,Open,INR,85000,18,Annual laptop maintenance contract
+PO-2026-1004,V003,2026-09-22,Open,INR,42500,18,Network switch installation and cabling
+PO-2026-1005,V004,2026-09-20,Open,INR,60000,18,Corrugated cartons 3-ply
+PO-2026-1006,V006,2026-10-01,Open,INR,150000,18,Facility housekeeping Oct-Nov
+PO-2026-1007,V005,2026-10-05,Open,INR,90000,18,Industrial hand tools
+PO-2026-1008,V001,2026-10-08,Open,INR,50000,18,Ergonomic office chairs

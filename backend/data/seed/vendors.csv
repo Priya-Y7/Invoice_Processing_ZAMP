@@ -1,0 +1,7 @@
+vendor_id,legal_name,gstin,state_code,address,bank_account_holder,bank_account_no,ifsc,approval_status,payment_terms_days
+V001,Sharma Office Supplies Pvt Ltd,27AABCS1234F1Z5,27,"14 Andheri Industrial Estate, Mumbai 400093",Sharma Office Supplies Pvt Ltd,50100234561821,HDFC0001234,Approved,30
+V002,Bluewave Logistics Pvt Ltd,29AACCB5678K1Z2,29,"88 Hosur Road, Bengaluru 560068",Bluewave Logistics Pvt Ltd,60200345672930,ICIC0004567,Approved,30
+V003,Techno Fix IT Services LLP,07AAFFT9012M1Z9,07,"21 Nehru Place, New Delhi 110019",Techno Fix IT Services LLP,30300456783041,SBIN0007890,Approved,30
+V004,Greenleaf Packaging Co,24AAHFG3456P1Z3,24,"5 GIDC Estate, Vadodara 390010",Greenleaf Packaging Co,40400567894152,UTIB0003456,Approved,30
+V005,Orion Industrial Tools,33AABCO7890R1Z6,33,"102 Ambattur Estate, Chennai 600058",Orion Industrial Tools,70500678905263,KKBK0002345,Blocked,30
+V006,Meridian Facility Services,27AAECM2468Q1Z1,27,"9 Baner Road, Pune 411045",Meridian Facility Services,80600789016374,YESB0005678,Approved,30

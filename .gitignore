@@ -1,0 +1,17 @@
+# Your own runs and uploads stay on your machine, so a fresh clone starts empty
+backend/data/invoiceiq.db
+backend/data/invoiceiq.db-shm
+backend/data/invoiceiq.db-wal
+backend/data/uploads/
+
+# Build and environment folders
+frontend/node_modules/
+frontend/dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+_removed/
+.DS_Store
+backend/data/ws/
+frontend/vite.config.ts.timestamp-*

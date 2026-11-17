@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: 11 18 32; --bg: 245 247 250; --surface: 255 255 255; --ink: 10 15 25; --line: 227 232 239; --line2: 197 205 219;
+  --muted: 31 41 55; --body: 17 24 39; --head: 248 250 252;
+  --indigo: 59 91 219; --indigo-dark: 47 73 179; --indigo-soft: 237 240 253;
+  --ok: 31 157 85; --ok-soft: 230 246 236; --warn: 217 138 0; --warn-soft: 255 244 220;
+  --bad: 214 69 69; --bad-soft: 252 233 233; --ai: 112 72 232; --ai-soft: 240 234 254;
+  --grid: #E3E8EF; --axis: #1F2937;
+}
+.dark {
+  color-scheme: dark;
+  --navy: 7 11 19; --bg: 12 16 24; --surface: 21 27 39; --ink: 232 236 244; --line: 40 49 66; --line2: 62 73 94;
+  --muted: 152 164 184; --body: 188 198 214; --head: 27 34 48;
+  --indigo: 91 120 240; --indigo-dark: 70 96 210; --indigo-soft: 31 40 78;
+  --ok: 52 190 112; --ok-soft: 18 52 37; --warn: 240 165 30; --warn-soft: 60 46 14;
+  --bad: 242 105 105; --bad-soft: 64 26 30; --ai: 152 120 252; --ai-soft: 45 33 80;
+  --grid: #2A3347; --axis: #A6B1C5;
+}
+
+html, body, #root { height: 100%; }
+body { @apply bg-bg text-ink font-sans text-[14px] antialiased; }
+.card { @apply bg-surface border border-line rounded-xl shadow-card; }
+.th { @apply text-[11px] uppercase tracking-wide text-muted font-semibold text-left px-3 py-2 bg-head border-b border-line; }
+.td { @apply px-3 py-2.5 border-b border-line align-top; }
+.btn { @apply inline-flex items-center gap-2 rounded-lg px-3.5 py-2 text-[13px] font-semibold transition-colors disabled:opacity-50; }
+.btn-primary { @apply btn bg-indigo text-white hover:bg-indigo-dark; }
+.btn-ghost { @apply btn border border-line bg-surface text-ink hover:bg-bg; }
+.chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[12px] font-medium; }
+.input { @apply w-full rounded-lg border border-line bg-surface text-ink px-3 py-2 text-[13px] focus:outline-none focus:ring-2 focus:ring-indigo/30 focus:border-indigo; }
+@keyframes pop { 0% { transform: scale(.96); opacity: 0 } 100% { transform: scale(1); opacity: 1 } }
+.pop { animation: pop .25s ease-out; }

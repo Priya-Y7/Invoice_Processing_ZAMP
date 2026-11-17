@@ -1,0 +1,4 @@
+invoice_number,vendor_id,invoice_date,po_number,subtotal,tax_total,total,decision
+INV-SOS-0301,V001,2026-06-20,PO-2026-0950,40000,7200,47200,Approve
+INV-BWL-7781,V002,2026-10-14,PO-2026-1002,120000,21600,141600,Approve
+INV-MFS-2210,V006,2026-10-28,PO-2026-1006,75000,13500,88500,Approve
