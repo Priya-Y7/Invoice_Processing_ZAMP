@@ -3,9 +3,11 @@ services:
     name: invoiceiq
     runtime: docker
     plan: free
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /healthz
+    autoDeploy: true
     envVars:
+      - key: WORKSPACES
+        value: per_visitor
       - key: UI_PACING_MS
         value: "600"
-      - key: WORKSPACES        # every visitor gets a private, fresh workspace
-        value: per_visitor
